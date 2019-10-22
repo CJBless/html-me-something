@@ -1,7 +1,8 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
+
    v2.0 | 20110126
-   License: none (public domain)
-*/
+   License: none (public domain) */
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -21,7 +22,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -45,4 +46,69 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    image-orientation: from-image;
+}
+body {
+    margin: 30px 150px 30px 150px;
+    position: relative;
+    background: linear-gradient(
+                     rgba(0, 0, 0, 0.8), 
+                     rgba(20,20,20, .8));
+    background-image: url("Images/markus-dubrau-jungle.jpg");
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lucida Grande', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2.8px;
+    word-spacing: 4.4px;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+h2 {
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Lucida Grande', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.transparent {
+    position: absolute;
+    background-color: rgba(157, 204, 190, 0.7);
+    padding: 35px;
+}
+section {
+    padding: 15px;
+    font-family: 'Lucida Grande', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(157, 204, 190, 0.5);
+}
+.mainBody {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+figcaption {
+    font: small-caption;
+    padding: 5px;
+}
+video {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+}
+#zipline {
+    padding: 5px;
+    font-size: 15px;
+    color: #344615;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 4px;
+    border-style: double;
+    border-color: #344615;
 }
